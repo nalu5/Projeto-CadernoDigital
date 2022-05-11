@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cadernoVirtual.MainPage"
+             Title="Caderno Virtual"
+             BackgroundColor="lightgray"
+             >
+
+    <StackLayout Padding="20">
+        <Label
+            Text="Caderno virtual :)"
+            HorizontalOptions="Center"
+            FontSize="Title"
+            FontAttributes="Bold"
+            FontColor="Black"
+        />
+    <Button Text="Primeiro ano"
+            FontSize="Large"
+            Clicked="Button_Clicked1"/>
+            
+    <Button Text="Segundo ano"
+            FontSize="Large"
+            Clicked="Button_Clicked2"/>
+
+    <Button Text="Terceiro ano"
+            FontSize="Large"
+            Clicked="Button_Clicked3"/>
+    </StackLayout>
+
+</ContentPage>
