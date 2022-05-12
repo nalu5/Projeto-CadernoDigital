@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cadernoVirtual.Matematica"
+             Title="Caderno Virtual"
+             BackgroundColor="lightgray"
+             >
+
+    <StackLayout Padding="20">
+        <Label
+            Text="3° ano - Equação Fundamental da Reta"
+            HorizontalOptions="Center"
+            FontSize="Title"
+            FontAttributes="Bold"
+            FontColor="Black"
+        />
+        <Label
+        Text="fórmula: y-yo = m.(x-xo)
+onde:
+y - um ponto qualquer da reta
+yo - ponto conhecido da reta y
+xo - ponto conhecido da reta x
+m - coeficiente angular
+
+- coeficiente angular: tangente de o 
+Quando um ângulo não for dado no enunciado, a fórmula para calcular o coeficiente angular (m) é:
+m = ∆y/∆x
+
+- inclinação da reta
+O ângulo que é definido pela abertura do ponto x (abscissa) até a reta no sentido anti-horário, é a inclinação da reta."
+        />
+
+    </StackLayout>
+
+</ContentPage>
